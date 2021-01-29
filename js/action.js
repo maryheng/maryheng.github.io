@@ -12,4 +12,18 @@ $(document).ready(function () {
   
       $('.animated-icon3').toggleClass('open');
     });
+
+    // Initiate venobox (lightbox feature used in portofilo)
+    $('.venobox').venobox({
+      spinner: 'cube-grid'
+    }); 
+
+    // // Portfolio details carousel 
+    // $('.owl-carousel').owlCarousel({
+    //   autoplay: true,
+    //   dots: true,
+    //   loop: true,
+    //   items: 1
+    // });
+
   });
