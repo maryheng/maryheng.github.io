@@ -1,20 +1,24 @@
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
+/* @media (min-width: 576px) { ... } */
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (max-width: 768px) {
+  .display {
+    margin: auto;
+  }
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {  
     .main-container {
-        display: flex;
+        /* display: flex; */
         justify-content: space-between;
     }
 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+/* @media (min-width: 1200px) { ... } */
 
 :root{
     /* --main-bg-color: #F5EEDF;
@@ -59,6 +63,10 @@ p {
     border-style: solid;
     box-shadow: black 1px 1px 0px, black 3px 3px 0px, black 5px 5px 0px, black 7px 7px 0px, black 9px 9px 0px;
 }
+
+/* .intro .main-container {
+  margin: auto !important;
+} */
 
 .main-container {
     max-width: 1280px;
@@ -116,7 +124,7 @@ p {
 
 .intro-container {
     text-align: center;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .list-item {
